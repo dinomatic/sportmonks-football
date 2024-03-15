@@ -1,22 +1,26 @@
 {
-  "name": "joesaunderson/sportmonks-soccer",
-  "description": "Simple SportMonks Soccer API Client for PHP",
-  "license": "MIT",
+  "name": "dinomatic/sportmonks-football",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
-      "name": "Joe Saunderson",
-      "email": "joesaunderson@me.com",
-      "role": "Developer"
+      "name": "DinoMatic",
+      "email": "info@dinomatic.com",
+      "homepage": "https://dinomatic.com"
     }
   ],
   "require": {
-    "php": "^7.3 | ^8",
-    "symfony/http-client": "^5.4"
+    "php": "^7.4 | ^8",
+    "symfony/http-client": "^6.3"
   },
   "autoload": {
     "psr-4": {
-      "Sportmonks\\Soccer\\": "src/"
+      "Sportmonks\\Football\\": "src/"
     }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require-dev": {
+    "laravel/pint": "^1.14"
   }
 }
