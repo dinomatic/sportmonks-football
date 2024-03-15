@@ -1,5 +1,6 @@
 {
   "name": "dinomatic/sportmonks-football",
+  "description": "PHP Library for Sportmonks Football API v3",
   "type": "library",
   "license": "MIT",
   "authors": [
