@@ -5,6 +5,7 @@ namespace Sportmonks\Football;
 use Sportmonks\Football\Endpoints\Bookmaker;
 use Sportmonks\Football\Endpoints\Coach;
 use Sportmonks\Football\Endpoints\Commentary;
+use Sportmonks\Football\Endpoints\Country;
 use Sportmonks\Football\Endpoints\Fixture;
 use Sportmonks\Football\Endpoints\InPlayOdd;
 use Sportmonks\Football\Endpoints\League;
@@ -46,6 +47,11 @@ class FootballApi
     public static function commentaries(): Commentary
     {
         return new Commentary();
+    }
+
+    public static function countries(): Country
+    {
+        return new Country();
     }
 
     public static function fixtures(): Fixture
